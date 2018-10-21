@@ -13,6 +13,7 @@
 		AFCA6F6F217C336A00AE5E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA6F6D217C336A00AE5E41 /* Main.storyboard */; };
 		AFCA6F71217C336C00AE5E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCA6F70217C336C00AE5E41 /* Assets.xcassets */; };
 		AFCA6F74217C336C00AE5E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA6F72217C336C00AE5E41 /* LaunchScreen.storyboard */; };
+		CEDFCA05217C4C4B00ABEC30 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA04217C4C4B00ABEC30 /* SecondTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AFCA6F70217C336C00AE5E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFCA6F73217C336C00AE5E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFCA6F75217C336C00AE5E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFCA04217C4C4B00ABEC30 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AFCA6F69217C336A00AE5E41 /* AppDelegate.swift */,
 				AFCA6F6B217C336A00AE5E41 /* ViewController.swift */,
 				AFCA6F6D217C336A00AE5E41 /* Main.storyboard */,
+				CEDFCA04217C4C4B00ABEC30 /* SecondTableViewController.swift */,
 				AFCA6F70217C336C00AE5E41 /* Assets.xcassets */,
 				AFCA6F72217C336C00AE5E41 /* LaunchScreen.storyboard */,
 				AFCA6F75217C336C00AE5E41 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCA6F6C217C336A00AE5E41 /* ViewController.swift in Sources */,
+				CEDFCA05217C4C4B00ABEC30 /* SecondTableViewController.swift in Sources */,
 				AFCA6F6A217C336A00AE5E41 /* AppDelegate.swift in Sources */,
 				AFBF0C6A217C4AF1001652D9 /* FirstTableViewController.swift in Sources */,
 			);
@@ -287,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K64L3AR73;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ableViewTeamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K64L3AR73;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ableViewTeamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
