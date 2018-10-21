@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83C1550D217C51460004A354 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1550C217C51460004A354 /* ThirdTableViewController.swift */; };
 		AFCA6F6A217C336A00AE5E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA6F69217C336A00AE5E41 /* AppDelegate.swift */; };
 		AFCA6F6C217C336A00AE5E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA6F6B217C336A00AE5E41 /* ViewController.swift */; };
 		AFCA6F6F217C336A00AE5E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA6F6D217C336A00AE5E41 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83C1550C217C51460004A354 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 		AFCA6F66217C336A00AE5E41 /* ableViewTeamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ableViewTeamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCA6F69217C336A00AE5E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFCA6F6B217C336A00AE5E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +62,11 @@
 				AFCA6F70217C336C00AE5E41 /* Assets.xcassets */,
 				AFCA6F72217C336C00AE5E41 /* LaunchScreen.storyboard */,
 				AFCA6F75217C336C00AE5E41 /* Info.plist */,
+				83C1550C217C51460004A354 /* ThirdTableViewController.swift */,
 			);
 			path = ableViewTeamApp;
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 /* End PBXGroup section */
 
@@ -137,6 +141,7 @@
 			files = (
 				AFCA6F6C217C336A00AE5E41 /* ViewController.swift in Sources */,
 				AFCA6F6A217C336A00AE5E41 /* AppDelegate.swift in Sources */,
+				83C1550D217C51460004A354 /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K64L3AR73;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ableViewTeamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4K64L3AR73;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ableViewTeamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

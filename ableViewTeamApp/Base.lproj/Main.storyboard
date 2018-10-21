@@ -19,7 +19,7 @@
                         <sections>
                             <tableViewSection id="hqY-Rn-kXb">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="wx2-Cj-2zJ" style="IBUITableViewCellStyleDefault" id="7gy-1y-YU8">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NameCell" textLabel="wx2-Cj-2zJ" style="IBUITableViewCellStyleDefault" id="7gy-1y-YU8">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7gy-1y-YU8" id="oYD-75-1Ha">
@@ -72,6 +72,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="oN0-AG-GjJ" kind="show" id="443-Ao-t3q"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -85,18 +88,18 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQb-5n-UTm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="76"/>
+            <point key="canvasLocation" x="-686" y="28"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Third Table View Controller-->
         <scene sceneID="SxG-H4-4UH">
             <objects>
-                <tableViewController id="oN0-AG-GjJ" sceneMemberID="viewController">
+                <tableViewController id="oN0-AG-GjJ" customClass="ThirdTableViewController" customModule="ableViewTeamApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ycl-97-PWp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZgF-2C-L9f">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NameCell" id="ZgF-2C-L9f">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZgF-2C-L9f" id="tZp-um-WIu">
@@ -113,7 +116,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="heA-Nd-7NB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2050" y="85"/>
+            <point key="canvasLocation" x="38" y="27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8qa-l6-BTg">
@@ -129,7 +132,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcV-tI-zhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1132" y="76"/>
+            <point key="canvasLocation" x="-1319" y="28"/>
         </scene>
     </scenes>
 </document>
